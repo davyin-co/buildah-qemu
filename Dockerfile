@@ -1,2 +1,2 @@
 FROM quay.io/buildah/stable:v1
-RUN dnf install qemu-user-static
+RUN dnf install -y qemu-user-static binfmt-support
